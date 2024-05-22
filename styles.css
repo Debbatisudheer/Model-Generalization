@@ -56,9 +56,25 @@ code {
     background-color: #f9f2f4;
 }
 
-@media (max-width: 600px) {
+/* Responsive Design */
+@media screen and (max-width: 768px) {
     .container {
-        padding: 15px;
-        margin: 10px;
+        width: 95%;
     }
+
+    img {
+        margin-bottom: 30px; /* Adjust margin for smaller screens */
+    }
+
+}
+/* Footer Styles */
+footer {
+    background-color: #E0218A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
